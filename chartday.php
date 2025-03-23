@@ -48,7 +48,7 @@ if (isset($_SESSION["username"])) {
             width: 80%;
             height: 80%;
             border-radius:10px;
-            border: solid 3px #003574;
+            border: solid 3px #5D1D86;
             background: white;
         }
         @media (max-width: 900px){
