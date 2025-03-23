@@ -1265,17 +1265,19 @@ textarea {
 }
 
 aside.left-panel {
-  background: #003574;
+  background: #5d1d86;
   display: table-cell;
   height: 100vh;
   min-height: 100%;
   padding: 0 25px;
   vertical-align: top;
   box-shadow: 10px 0px 10px rgba(116, 129, 243, 0.5);
-  width: 280px;
+  width: 300px;
   z-index: 9999;
   -webkit-transition: width 0.3s ease;
   transition: width 0.3s ease;
+  border-radius: 50px; /* Tambahkan border-radius rounded */
+  /*transform: translateX(10px); Geser Dikit Ke Kanan */
 }
 
 .navbar {
@@ -1318,7 +1320,7 @@ aside.left-panel {
   font-weight: 600;
 }
 .navbar .navbar-brand img {
-  max-width: 160px;
+  max-width: 50px;
 }
 .navbar .navbar-brand.hidden {
   display: none;
@@ -1421,7 +1423,7 @@ aside.left-panel {
   color: #2c2c2c;
 }
 .navbar .navbar-nav li.menu-item-has-children .sub-menu {
-  background: #1a4b78;
+  background: #5d1d86;
   border: none;
   border-radius: 5px;
   box-shadow: none;
@@ -1664,18 +1666,18 @@ body.open .navbar .navbar-brand.hidden {
 .right-panel header.header {
   /*background: #0d7da9;
   */
-  background: #1a4b78;
+  background: #5d1d86;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
-  border-radius: 5px;
+  border-radius: 25px;
   clear: both;
   display: inline-block;
   padding: 15px 20px 13px;
   margin: 10px;
   width: 98%;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
 }
 
 .open .right-panel {
@@ -2023,6 +2025,7 @@ header .form-inline .search-form.close {
 
 .breadcrumbs {
   margin-top: 0;
+  border-radius: 25px;
 }
 
 /* Tabs */
